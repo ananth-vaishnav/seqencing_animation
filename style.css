@@ -2,26 +2,17 @@ body {
     background: #8F00FF;
     display: flex;
     justify-content: center;
+    align-items: center; /* Center the container vertically */
+    height: 100vh; /* Full viewport height */
 }
 
 #alice-container {
-    width: 90vh;
-    display: grid;
-    place-items: center;
-    grid-template-areas:
-        "a1 . ."
-        ". a2 ."
-        ". . a3";
+    width: 80%; /* Adjust based on preference */
+    display: flex;
+    justify-content: space-evenly; /* Even spacing of children */
+    align-items: center; /* Vertically align items in the container */
 }
 
-#alice1 {
-    grid-area: a1;
-}
-
-#alice2 {
-    grid-area: a2;
-}
-
-#alice3 {
-    grid-area: a3;
+#alice1, #alice2, #alice3 {
+    /* If you want to explicitly set sizes or any common style */
 }
