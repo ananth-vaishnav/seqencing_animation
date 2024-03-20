@@ -1,19 +1,27 @@
 body {
-    background: #8F00FF;
+    background: #00B5E2;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    height: 100vh; 
 }
 
 #alice-container {
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around; 
-    align-items: center; 
-    height: 70vh; 
+    width: 90vh;
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+        "a1 . ."
+        ". a2 ."
+        ". . a3";
 }
 
-#alice1, #alice2, #alice3 {
-  
+#alice1 {
+    grid-area: a1;
+}
+
+#alice2 {
+    grid-area: a2;
+}
+
+#alice3 {
+    grid-area: a3;
 }
