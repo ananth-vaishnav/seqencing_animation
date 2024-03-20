@@ -13,7 +13,7 @@ const alice1 = document.querySelector("#alice1");
 const alice2 = document.querySelector("#alice2");
 const alice3 = document.querySelector("#alice3");
 
-// CALLBACK HELL
+
 
 function doOperation1() {
     alice1.animate(aliceTumbling, aliceTiming).finished.then(() => {
@@ -25,7 +25,7 @@ function doOperation1() {
     });
 }
 
-// PROIMISE CHAINING
+
 
 function doOperation2() {
     alice1.animate(aliceTumbling, aliceTiming).finished.then(() => {
@@ -38,7 +38,7 @@ function doOperation2() {
 
 }
 
-// ASYNC-AWAIT 
+
 
 async function doOperation3() {
     await alice1.animate(aliceTumbling, aliceTiming);
