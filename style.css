@@ -2,17 +2,18 @@ body {
     background: #8F00FF;
     display: flex;
     justify-content: center;
-    align-items: center; /* Center the container vertically */
-    height: 100vh; /* Full viewport height */
+    align-items: center; 
+    height: 100vh; 
 }
 
 #alice-container {
-    width: 80%; /* Adjust based on preference */
     display: flex;
-    justify-content: space-evenly; /* Even spacing of children */
-    align-items: center; /* Vertically align items in the container */
+    flex-direction: column; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: 70vh; 
 }
 
 #alice1, #alice2, #alice3 {
-    /* If you want to explicitly set sizes or any common style */
+  
 }
