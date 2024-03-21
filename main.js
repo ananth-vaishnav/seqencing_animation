@@ -17,7 +17,7 @@ function animateElement(element) {
   return element.animate(aliceTumbling, aliceTiming).finished;
 }
 
-// Sequence the animations
+
 animateElement(alice1).then(() => {
   return animateElement(alice2);
 }).then(() => {
