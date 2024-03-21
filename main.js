@@ -13,7 +13,6 @@ const alice1 = document.querySelector("#alice1");
 const alice2 = document.querySelector("#alice2");
 const alice3 = document.querySelector("#alice3");
 
-// Function to animate an element
 function animateElement(element) {
   return element.animate(aliceTumbling, aliceTiming).finished;
 }
